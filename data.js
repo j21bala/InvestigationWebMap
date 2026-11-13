@@ -1173,7 +1173,7 @@ window.DATA=[
   "rel": "fam1",
   "parent": "n1794594001813",
   "risk": "na",
-  "photo": "",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbGatm-fD8iEjbce5tv-rEaqXYvU6mTj7ICUyTh791Bg0g_4Tq_ZpMjw&s=10",
   "doc": "",
   "desc": "",
   "evid": "",
@@ -1260,7 +1260,7 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 1135.456741510033,
+  "x": 1140.2135341368073,
   "y": 357.3038007511314
  }
 ];
