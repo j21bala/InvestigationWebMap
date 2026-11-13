@@ -1145,7 +1145,7 @@ window.DATA=[
  },
  {
   "id": "n1794594001813",
-  "name": "Nueva persona",
+  "name": "Noel Esteban Petro Henríquez",
   "rel": "ext",
   "parent": "c",
   "risk": "na",
