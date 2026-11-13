@@ -1031,7 +1031,7 @@ window.DATA=[
   "risk": "na",
   "photo": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP2692875A-s-o.webp",
   "doc": "",
-  "desc": "",
+  "desc": "Katia Burgos es una ciudadana colombiana originaria de Ciénaga de Oro, Córdoba, reconocida públicamente por haber sido la primera esposa del presidente de Colombia, Gustavo Petro, y por ser la madre de su hijo mayor, Nicolás Petro Burgos. A lo largo de las últimas décadas, ha mantenido un perfil estrictamente privado y alejado de la vida política.",
   "evid": "",
   "flags": "",
   "src": "",
