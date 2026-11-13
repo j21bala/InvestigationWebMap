@@ -282,7 +282,7 @@ window.DATA=[
   "src": "Presidencia; prensa",
   "upd": "2026-11-13",
   "bank": {
-   "cliente": false,
+   "cliente": true,
    "productos": []
   },
   "fid": {
