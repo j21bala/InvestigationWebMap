@@ -972,7 +972,7 @@ window.DATA=[
  },
  {
   "id": "n1794583209048",
-  "name": "Nueva persona",
+  "name": "Franklin Humberto Coral Garrido",
   "rel": "ext",
   "parent": "c",
   "risk": "na",
