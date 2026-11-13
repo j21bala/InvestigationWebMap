@@ -1166,29 +1166,5 @@ window.DATA=[
   },
   "x": 1038.7594861422526,
   "y": 472.158554565778
- },
- {
-  "id": "n1794594221847",
-  "name": "Ana Petro Martínez",
-  "rel": "fam1",
-  "parent": "n1794594001813",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
-  "desc": "",
-  "evid": "",
-  "flags": "",
-  "src": "",
-  "upd": "2026-11-13",
-  "bank": {
-   "cliente": false,
-   "productos": []
-  },
-  "fid": {
-   "cliente": false,
-   "productos": []
-  },
-  "x": 1101.127478057158,
-  "y": 619.4457626534994
  }
 ];
