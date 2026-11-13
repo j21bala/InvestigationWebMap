@@ -1168,30 +1168,6 @@ window.DATA=[
   "y": 472.158554565778
  },
  {
-  "id": "n1794594190947",
-  "name": "Noelia Petro",
-  "rel": "fam1",
-  "parent": "n1794594001813",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
-  "desc": "",
-  "evid": "",
-  "flags": "",
-  "src": "",
-  "upd": "2026-11-13",
-  "bank": {
-   "cliente": false,
-   "productos": []
-  },
-  "fid": {
-   "cliente": false,
-   "productos": []
-  },
-  "x": 1170.026302407049,
-  "y": 541.3987775924478
- },
- {
   "id": "n1794594221847",
   "name": "Ana Petro Martínez",
   "rel": "fam1",
