@@ -1058,7 +1058,7 @@ window.DATA=[
  },
  {
   "id": "n1794586809195",
-  "name": "Nueva persona",
+  "name": "Mary Luz Herrán",
   "rel": "ext",
   "parent": "c",
   "risk": "na",
