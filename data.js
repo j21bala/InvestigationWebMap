@@ -1151,7 +1151,7 @@ window.DATA=[
   "risk": "bajo",
   "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCeAcVANtQlEy1fLmfcGPhESJIYDKQf8kWTg5yItnitANGunbmGKjr6uP1&s=10",
   "doc": "5384245",
-  "desc": "",
+  "desc": "Noel Esteban Petro Henríquez, conocido popularmente como «El Burro Mocho» o «El Torero Cantor», es un icónico músico, cantautor, compositor y torero colombiano. Nació el 19 de marzo de 1933 en Cereté (Córdoba) y cuenta con más de siete décadas de trayectoria artística en la música tropical, el porro, el vallenato, el bolero y el rock and roll",
   "evid": "",
   "flags": "",
   "src": "",
