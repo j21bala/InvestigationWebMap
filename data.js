@@ -1088,7 +1088,7 @@ window.DATA=[
  {
   "id": "n1794588956335",
   "name": "Laura Andrea Ojeda Estupiñán",
-  "rel": "ext",
+  "rel": "afin",
   "parent": "nic",
   "risk": "na",
   "photo": "",
