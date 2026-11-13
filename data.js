@@ -1102,7 +1102,7 @@ window.DATA=[
    "cliente": true,
    "productos": [
     {
-     "tipo": "",
+     "tipo": "Cuentas Aho/Cte (En DTN)",
      "numero": "24029585647"
     }
    ]
