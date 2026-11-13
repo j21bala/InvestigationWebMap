@@ -529,11 +529,11 @@ window.DATA=[
   "risk": "medio",
   "photo": "https://cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/G5T2FIZTTBD5FOFFSJEFH7SBDQ.jpeg",
   "doc": "1003275678",
-  "desc": "",
+  "desc": "Juliana Andrea Guerrero Jiménez es una exfuncionaria colombiana del gobierno de Gustavo Petro que estuvo en el centro de un escándalo por falsificación de títulos académicos y posterior condena judicial",
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
