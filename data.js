@@ -1194,7 +1194,7 @@ window.DATA=[
  {
   "id": "n1794594190947",
   "name": "Noelia Petro",
-  "rel": "ext",
+  "rel": "fam1",
   "parent": "n1794594001813",
   "risk": "na",
   "photo": "",
