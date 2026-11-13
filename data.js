@@ -1146,7 +1146,7 @@ window.DATA=[
  {
   "id": "n1794594001813",
   "name": "Noel Esteban Petro Henríquez",
-  "rel": "ext",
+  "rel": "fam2",
   "parent": "c",
   "risk": "na",
   "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCeAcVANtQlEy1fLmfcGPhESJIYDKQf8kWTg5yItnitANGunbmGKjr6uP1&s=10",
