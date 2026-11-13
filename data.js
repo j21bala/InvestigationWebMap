@@ -1029,7 +1029,7 @@ window.DATA=[
   "rel": "ext",
   "parent": "c",
   "risk": "na",
-  "photo": "",
+  "photo": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP2692875A-s-o.webp",
   "doc": "",
   "desc": "",
   "evid": "",
