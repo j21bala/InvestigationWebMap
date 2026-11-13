@@ -1238,29 +1238,5 @@ window.DATA=[
   },
   "x": 1101.127478057158,
   "y": 619.4457626534994
- },
- {
-  "id": "n1794594254671",
-  "name": "Gladys Petro",
-  "rel": "fam1",
-  "parent": "n1794594001813",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
-  "desc": "Gladys Petro fue una de las hijas mayores del reconocido cantautor colombiano Noel Petro (\"El Burro Mocho\") y media hermana del bajista José Noel Petro Urrea.\n• Fallecimiento. Según reveló el propio Noel Petro en una entrevista radial en enero de 2024, Gladys falleció aproximadamente en agosto de 2023.",
-  "evid": "",
-  "flags": "",
-  "src": "",
-  "upd": "2026-11-13",
-  "bank": {
-   "cliente": false,
-   "productos": []
-  },
-  "fid": {
-   "cliente": false,
-   "productos": []
-  },
-  "x": 1140.2135341368073,
-  "y": 357.3038007511314
  }
 ];
