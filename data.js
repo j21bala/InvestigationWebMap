@@ -1241,7 +1241,7 @@ window.DATA=[
  },
  {
   "id": "n1794594254671",
-  "name": "Nueva persona",
+  "name": "Clara Petro",
   "rel": "ext",
   "parent": "n1794594001813",
   "risk": "na",
