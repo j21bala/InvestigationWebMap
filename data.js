@@ -198,12 +198,12 @@ window.DATA=[
   "parent": "c",
   "risk": "medio",
   "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNyqqfmFOTiaWHTdqDubIpyy1hpBcV2DluvnFGX6g8y0jUAO1u6BNkU2AZ&s=10",
-  "doc": "",
+  "doc": "2976618",
   "desc": "Hermano.",
   "evid": "En 2023 la prensa reportó presunto tráfico de influencias. ",
   "flags": "Reportes de prensa; sin sentencia verificada.",
   "src": "El País; La Silla Vacía",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
