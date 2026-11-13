@@ -1182,7 +1182,12 @@ window.DATA=[
   "upd": "2026-11-13",
   "bank": {
    "cliente": false,
-   "productos": []
+   "productos": [
+    {
+     "tipo": "",
+     "numero": ""
+    }
+   ]
   },
   "fid": {
    "cliente": false,
