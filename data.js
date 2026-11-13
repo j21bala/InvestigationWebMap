@@ -973,7 +973,7 @@ window.DATA=[
  {
   "id": "n1794583209048",
   "name": "Franklin Humberto Coral Garrido",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
   "risk": "bajo",
   "photo": "",
