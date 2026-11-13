@@ -856,7 +856,7 @@ window.DATA=[
   "rel": "pol",
   "parent": "c",
   "risk": "medio",
-  "photo": "https://www.lasillavacia.com/wp-content/uploads/2026/08/Fotos-Quien-es-Quien-66.jpg",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC3hkIgbvabriSd674oD3Xh3FmUJTu9rzpMCDMS-95Z5I7QqzR_MlfkIc&s=10",
   "doc": "1013672423",
   "desc": "Laura Daniela Beltrán Palomares, conocida públicamente como «Lalis», es una comunicadora social, creadora de contenido digital y política colombiana que se desempeña como Representante a la Cámara por Bogotá para el periodo 2026-2030. Nacida en Bogotá el 8 de marzo de 1997, obtuvo su curul en representación de la coalición del Pacto Histórico tras alcanzar 26.718 votos.",
   "evid": "",
