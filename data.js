@@ -1242,7 +1242,7 @@ window.DATA=[
  {
   "id": "n1794594254671",
   "name": "Clara Petro",
-  "rel": "ext",
+  "rel": "fam1",
   "parent": "n1794594001813",
   "risk": "na",
   "photo": "",
