@@ -1087,7 +1087,7 @@ window.DATA=[
  },
  {
   "id": "n1794588956335",
-  "name": "Nueva persona",
+  "name": "Laura Andrea Ojeda Estupiñán",
   "rel": "ext",
   "parent": "nic",
   "risk": "na",
