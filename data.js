@@ -20,8 +20,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 662.9978099464519,
-  "y": 456.4408410875285
+  "x": 664.0047586325303,
+  "y": 448.38525159890105
  },
  {
   "id": "alc",
@@ -44,8 +44,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 741.8673212975716,
-  "y": 193.2852645313567
+  "x": 770.0141210978586,
+  "y": 186.71767791128974
  },
  {
   "id": "nic",
@@ -68,7 +68,7 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 788.2145273650685,
+  "x": 772.4631512668248,
   "y": 343.8994244401773
  },
  {
@@ -116,8 +116,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 801.4983329547952,
-  "y": 448.6861174228588
+  "x": 806.1604654082967,
+  "y": 440.2942790065562
  },
  {
   "id": "sof",
@@ -140,8 +140,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 925.2961315303867,
-  "y": 518.5985735433519
+  "x": 905.4040896366035,
+  "y": 523.7878018634692
  },
  {
   "id": "ant",
@@ -164,8 +164,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 809.1733213009651,
-  "y": 537.503271695403
+  "x": 786.7950855241583,
+  "y": 519.7871683720975
  },
  {
   "id": "nal",
@@ -212,8 +212,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 689.7976273362112,
-  "y": 689.5123008405113
+  "x": 966.9053244614668,
+  "y": 453.0618319604878
  },
  {
   "id": "day",
@@ -285,7 +285,7 @@ window.DATA=[
    "productos": []
   },
   "x": 592.1345163043718,
-  "y": 631.379656948768
+  "y": 620.95841863165
  },
  {
   "id": "cav",
@@ -308,8 +308,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 543.3369681952222,
-  "y": 733.5140572429677
+  "x": 563.9700214774756,
+  "y": 717.7525597661983
  },
  {
   "id": "gbr",
@@ -394,8 +394,8 @@ window.DATA=[
     }
    ]
   },
-  "x": 723.4051879144229,
-  "y": 579.8811060307224
+  "x": 699.1620991562155,
+  "y": 561.2325762167168
  },
  {
   "id": "n1794502872032",
@@ -427,8 +427,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 829.7613768260181,
-  "y": 642.6146288954836
+  "x": 796.1940231608079,
+  "y": 627.695805044279
  },
  {
   "id": "n1794503826621",
@@ -557,8 +557,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 685.5569079632085,
-  "y": 277.38462122835534
+  "x": 691.1862679232659,
+  "y": 266.12590130824054
  },
  {
   "id": "n1794511780947",
@@ -594,7 +594,7 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 503.1830120202265,
+  "x": 480.4310243227632,
   "y": 441.08073762798375
  },
  {
@@ -714,8 +714,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 360.845773569136,
-  "y": 702.8176345214318
+  "x": 369.5965380681603,
+  "y": 691.4416406727003
  },
  {
   "id": "n1794513355310",
@@ -786,15 +786,15 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 627.5038937190076,
-  "y": 788.5176487488724
+  "x": 628.4363202097079,
+  "y": 782.9230898046707
  },
  {
   "id": "n1794513577436",
   "name": "Daniel Rojas Medellín",
   "rel": "pol",
   "parent": "c",
-  "risk": "na",
+  "risk": "medio",
   "photo": "https://www.lasillavacia.com/wp-content/uploads/2025/03/Daniel_Rojas_Medellin_MinEducacion.jpg",
   "doc": "81717276",
   "desc": "Economista; coordinador programático de campaña, director de la SAE y ministro de Educación.",
@@ -823,8 +823,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 426.62309483804785,
-  "y": 780.2038962857436
+  "x": 530.8354780092271,
+  "y": 565.1474328324914
  },
  {
   "id": "n1794575434684",
@@ -847,8 +847,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 446.98698548526835,
-  "y": 519.6292063036996
+  "x": 433.86083873673186,
+  "y": 525.7547414530165
  },
  {
   "id": "n1794575897331",
@@ -871,8 +871,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 562.8619416313131,
-  "y": 558.6896884096872
+  "x": 451.07047604768434,
+  "y": 773.7461518629392
  },
  {
   "id": "n1794576239134",
@@ -897,5 +897,77 @@ window.DATA=[
   },
   "x": 285.501794872852,
   "y": 538.6401060153119
+ },
+ {
+  "id": "n1794578927162",
+  "name": "Julio C. González Quiceno",
+  "rel": "pol",
+  "parent": "c",
+  "risk": "medio",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kU7NWwHxVlWvyXlJcmi8oLC1_s4JxWsCVwuEV7_lCTxcZ87tUphiUBlF&s=10",
+  "doc": "10132229",
+  "desc": "Julio César González Quiceno, conocido mundialmente bajo el seudónimo de «Matador», es un destacado caricaturista, humorista gráfico y publicista colombiano. Nació en Pereira, Risaralda, en 1969, y se ha consolidado como una de las figuras más influyentes y polémicas de la sátira política en Colombia",
+  "evid": "",
+  "flags": "",
+  "src": "",
+  "upd": "2026-11-13",
+  "bank": {
+   "cliente": false,
+   "productos": []
+  },
+  "fid": {
+   "cliente": false,
+   "productos": []
+  },
+  "x": 696.0932098130927,
+  "y": 684.1859780283804
+ },
+ {
+  "id": "n1794579525322",
+  "name": "Gabriela Muñoz Olaya",
+  "rel": "pol",
+  "parent": "c",
+  "risk": "bajo",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoP9rHPNJauoHWcNHhevhwWe8rcJGmGIaZn2eBgEa0dx9eoY2xO6czsAh&s=10",
+  "doc": "1034400420",
+  "desc": "Gabriela Muñoz Olaya (conocida en redes como Gabby Muñoz) es una activista política, creadora de contenido y funcionaria de apoyo legislativo en Colombia, vinculada al movimiento Pacto Histórico",
+  "evid": "",
+  "flags": "",
+  "src": "",
+  "upd": "2026-11-13",
+  "bank": {
+   "cliente": false,
+   "productos": []
+  },
+  "fid": {
+   "cliente": false,
+   "productos": []
+  },
+  "x": 563.9643359724525,
+  "y": 474.93193644572233
+ },
+ {
+  "id": "n1794581005330",
+  "name": "Walter Alfonso Rodríguez Chaparro",
+  "rel": "pol",
+  "parent": "c",
+  "risk": "medio",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAD6oRVBGV7F5sytylKB4LAt64ZHSNTUmRobd8EIYCokk0pDbYr_iM8T6P&s=10",
+  "doc": "1057585551",
+  "desc": "Walter Alfonso Rodríguez Chaparro, conocido popularmente como Wally, es un abogado, creador de contenido digital y senador de la República de Colombia por el Pacto Histórico para el periodo legislativo iniciado en 2026. Es reconocido principalmente por su canal de opinión política Wally Opina y por ser un abierto defensor del proyecto progresista del expresidente Gustavo Petro",
+  "evid": "",
+  "flags": "",
+  "src": "",
+  "upd": "2026-11-13",
+  "bank": {
+   "cliente": false,
+   "productos": []
+  },
+  "fid": {
+   "cliente": false,
+   "productos": []
+  },
+  "x": 782.4564598979988,
+  "y": 752.7303196606708
  }
 ];
