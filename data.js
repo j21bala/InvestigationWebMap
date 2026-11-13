@@ -1025,7 +1025,7 @@ window.DATA=[
  },
  {
   "id": "n1794585997257",
-  "name": "Nueva persona",
+  "name": "Catalina Burgos Burgos",
   "rel": "ext",
   "parent": "c",
   "risk": "na",
