@@ -285,7 +285,7 @@ window.DATA=[
    "cliente": true,
    "productos": [
     {
-     "tipo": "Cuentas Aho/Cte()",
+     "tipo": "Cuentas Aho/Cte(Inactiva))",
      "numero": "24148167731"
     },
     {
