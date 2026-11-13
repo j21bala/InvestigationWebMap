@@ -1100,7 +1100,12 @@ window.DATA=[
   "upd": "2026-11-13",
   "bank": {
    "cliente": true,
-   "productos": []
+   "productos": [
+    {
+     "tipo": "",
+     "numero": "24029585647"
+    }
+   ]
   },
   "fid": {
    "cliente": false,
