@@ -1117,7 +1117,7 @@ window.DATA=[
  {
   "id": "n1794589393538",
   "name": "Ricardo Roa Barragán",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
   "risk": "medio",
   "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtVjVGQXBIe2TbAM6pmUMrQsTLvsMxCdZW_B1b-PZU06-gVQoc6rZ8uXg&s=10",
