@@ -1131,7 +1131,7 @@ window.DATA=[
    "cliente": true,
    "productos": [
     {
-     "tipo": "",
+     "tipo": "2.09wdCuentas Aho/Cte (Cancelada))",
      "numero": "23000100749"
     }
    ]
