@@ -1122,7 +1122,7 @@ window.DATA=[
   "risk": "na",
   "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtVjVGQXBIe2TbAM6pmUMrQsTLvsMxCdZW_B1b-PZU06-gVQoc6rZ8uXg&s=10",
   "doc": "19451246",
-  "desc": "",
+  "desc": "Ricardo Roa Barragán (nacido en 1971) es un ingeniero mecánico y directivo empresarial colombiano del sector energético, reconocido principalmente por haber sido presidente de Ecopetrol S.A. entre abril de 2023 y julio de 2026. También se desempeñó como gerente general de la campaña presidencial de Gustavo Petro en 2022, rol por el cual enfrenta procesos judiciales vigentes.",
   "evid": "",
   "flags": "",
   "src": "",
