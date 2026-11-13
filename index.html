@@ -26,7 +26,7 @@
   <div id="tools" class="hidden flex flex-wrap gap-2">
     <button id="add" class="bg-cyan-600 hover:bg-cyan-500 rounded px-3 py-1 text-sm">+ Agregar persona</button>
     <button id="dl" class="bg-emerald-600 hover:bg-emerald-500 rounded px-3 py-1 text-sm">Descargar data.js</button>
-    <button id="rst" class="bg-slate-700 hover:bg-slate-600 rounded px-3 py-1 text-sm">Restablecer</button>
+    <button id="rst" class="bg-slate-700 hover:bg-slate-600 rounded px-3 py-1 text-sm">Recargar</button>
   </div>
   <button id="adm" class="ml-auto bg-amber-600 hover:bg-amber-500 rounded px-3 py-1 text-sm font-semibold">Admin</button>
   <div id="chips" class="flex flex-wrap gap-2 w-full"></div>
@@ -40,15 +40,20 @@
 
 <script src="data.js"></script><script src="core.js"></script>
 <script>
-const ADMIN_PASS="admin123"; // <-- CAMBIE AQUÍ SU CONTRASEÑA
-const KEY="petro-admin-v1";
+const ADMIN_PASS="admin123"; // <-- CAMBIE AQUÍ SU CONTRASEÑA (y en server.js)
 const $=id=>document.getElementById(id);
 const fresh=()=>JSON.parse(JSON.stringify(window.DATA));
-let admin=false,sel=null;
-let nodes;
-try{const s=localStorage.getItem(KEY);nodes=s?JSON.parse(s):fresh()}catch(e){nodes=fresh()}
+let admin=false,sel=null,adminPw="";
+let nodes=fresh();
 layout(nodes);
-const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(nodes))}catch(e){}};
+
+function toast(m){let t=$("toast");if(!t){t=document.createElement("div");t.id="toast";t.className="fixed bottom-4 right-4 bg-slate-800 border border-slate-600 text-sm rounded px-3 py-2 z-50";document.body.appendChild(t)}
+  t.textContent=m;t.style.display="block";clearTimeout(t._t);t._t=setTimeout(()=>t.style.display="none",1800)}
+let st;
+const save=()=>{clearTimeout(st);st=setTimeout(()=>{
+  fetch("/save",{method:"POST",headers:{"Content-Type":"application/json","x-admin-pass":adminPw},body:JSON.stringify(nodes)})
+  .then(r=>{if(!r.ok)throw 0;toast("Guardado ✓")}).catch(()=>toast("⚠ Error al guardar"))},400)};
+
 const side=$("side");
 const empty='<p class="text-slate-400">Seleccione un nodo para ver su ficha.</p>';
 const inp="w-full bg-slate-800 rounded px-2 py-1 outline-none focus:ring-2 ring-cyan-500";
@@ -65,11 +70,11 @@ $("reset").onclick=()=>map.center();
 
 /* ---- Login ---- */
 $("adm").onclick=()=>{
-  if(admin){admin=false;$("tools").classList.add("hidden");$("adm").textContent="Admin";render();return}
+  if(admin){admin=false;adminPw="";$("tools").classList.add("hidden");$("adm").textContent="Admin";render();return}
   $("login").classList.remove("hidden");$("pw").value="";$("err").textContent="";$("pw").focus()};
 $("cancel").onclick=()=>$("login").classList.add("hidden");
 $("go").onclick=()=>{
-  if($("pw").value===ADMIN_PASS){admin=true;$("login").classList.add("hidden");$("tools").classList.remove("hidden");$("adm").textContent="Salir de admin";render()}
+  if($("pw").value===ADMIN_PASS){adminPw=$("pw").value;admin=true;$("login").classList.add("hidden");$("tools").classList.remove("hidden");$("adm").textContent="Salir de admin";render()}
   else $("err").textContent="Contraseña incorrecta"};
 $("pw").onkeydown=e=>{if(e.key=="Enter")$("go").click()};
 
@@ -81,7 +86,7 @@ $("add").onclick=()=>{const p=byId(nodes,sel)||byId(nodes,"c"),a=Math.random()*6
   nodes.push(n);sel=n.id;save();names();map.draw();render()};
 $("dl").onclick=()=>{const a=document.createElement("a");
   a.href=URL.createObjectURL(new Blob(["window.DATA="+JSON.stringify(nodes,null,1)+";"],{type:"text/javascript"}));a.download="data.js";a.click()};
-$("rst").onclick=()=>{if(confirm("¿Descartar cambios y volver a data.js?")){localStorage.removeItem(KEY);nodes=fresh();layout(nodes);sel=null;names();map.center();render()}};
+$("rst").onclick=()=>{if(confirm("¿Recargar desde el último guardado?"))location.reload()};
 
 /* ---- Panel ---- */
 const L=t=>`<label class="block text-xs text-slate-400 mt-3 mb-1">${t}</label>`;
@@ -101,7 +106,7 @@ function render(){
   const rl=Object.keys(REL).map(k=>`<option value="${k}"${k==n.rel?" selected":""}>${REL[k][0]}</option>`).join("");
   const rk=Object.keys(RISK).map(k=>`<option value="${k}"${k==n.risk?" selected":""}>${RISK[k][0]}</option>`).join("");
   const par=nodes.filter(m=>m.id!==n.id).map(m=>`<option value="${m.id}"${m.id==n.parent?" selected":""}>${esc(m.name)}</option>`).join("");
-  side.innerHTML=`<div class="text-xs text-amber-400 font-semibold mb-2">MODO EDICIÓN</div>
+  side.innerHTML=`<div class="text-xs text-amber-400 font-semibold mb-2">MODO EDICIÓN · guardado automático</div>
   <div class="flex items-center gap-3">${n.photo?`<img src="${esc(n.photo)}" class="w-16 h-16 rounded-full object-cover">`:`<div class="w-16 h-16 rounded-full grid place-items-center bg-slate-700 text-xl font-bold">${ini(n.name)}</div>`}<h2 class="font-bold text-lg">${esc(n.name)}</h2></div>
   ${L("Foto (URL o ruta, ej. fotos/nombre.jpg)")}${T("photo",n.photo)}${L("Nombre")}${T("name",n.name)}${L("Documento (CC / NIT)")}${T("doc",n.doc)}
   ${L("Tipo de relación")}<select data-f="rel" class="${inp}">${rl}</select>

@@ -20,8 +20,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 733.7341792675335,
-  "y": 483.830997185284
+  "x": 662.9978099464519,
+  "y": 456.4408410875285
  },
  {
   "id": "alc",
@@ -44,8 +44,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 713.3475596671645,
-  "y": 298.85428859377697
+  "x": 741.8673212975716,
+  "y": 193.2852645313567
  },
  {
   "id": "nic",
@@ -68,8 +68,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 847.3074081538688,
-  "y": 350.6092172811029
+  "x": 788.2145273650685,
+  "y": 343.8994244401773
  },
  {
   "id": "and",
@@ -92,8 +92,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 1025.930996559135,
-  "y": 386.5312531412595
+  "x": 899.3361398090262,
+  "y": 382.0596953429036
  },
  {
   "id": "adr",
@@ -116,8 +116,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 936.6643434639506,
-  "y": 475.15258618790284
+  "x": 801.4983329547952,
+  "y": 448.6861174228588
  },
  {
   "id": "sof",
@@ -140,8 +140,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 996.2704658820808,
-  "y": 569.1513008666815
+  "x": 925.2961315303867,
+  "y": 518.5985735433519
  },
  {
   "id": "ant",
@@ -164,8 +164,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 877.1983985057931,
-  "y": 594.472513371082
+  "x": 809.1733213009651,
+  "y": 537.503271695403
  },
  {
   "id": "nal",
@@ -188,8 +188,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 630.5444798841203,
-  "y": 196.72669458303673
+  "x": 632.3539448671203,
+  "y": 175.91784727853684
  },
  {
   "id": "jfp",
@@ -212,8 +212,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 674.137747501329,
-  "y": 721.6577327425994
+  "x": 689.7976273362112,
+  "y": 689.5123008405113
  },
  {
   "id": "day",
@@ -236,8 +236,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 874.6780880961715,
-  "y": 209.51479076732846
+  "x": 854.4342794938761,
+  "y": 213.28321875104746
  },
  {
   "id": "gdl",
@@ -260,22 +260,22 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 994.8207124203819,
-  "y": 256.98065148402753
+  "x": 907.646785728441,
+  "y": 292.96660681210653
  },
  {
   "id": "adp",
   "name": "Hernando A. Prada Gil ",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
+  "risk": "alto",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkKwmEO4nAZzbUHo38IGoDDpKzQc9gRd3Mw3BXwR73cA&s=10",
+  "doc": "79328670",
   "desc": "Hernando Alfonso Prada Gil (Bogotá, 6 de octubre de 1963) es un abogado, profesor universitario y político colombiano de origen liberal-galanista que se convirtió en uno de los principales operadores políticos de Gustavo Petro durante la campaña presidencial de 2022 y en su gabinete de gobierno.",
   "evid": "Verificar contratos y encargos.",
   "flags": "",
   "src": "Presidencia; prensa",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -284,22 +284,22 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 635.5511053153925,
-  "y": 618.1517219811184
+  "x": 592.1345163043718,
+  "y": 631.379656948768
  },
  {
   "id": "cav",
-  "name": "Claudia López",
-  "rel": "ext",
+  "name": "Claudia N. López Hernández",
+  "rel": "pol",
   "parent": "adp",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
+  "risk": "alto",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpeMQK9V_Lo3AjFzDU4HyZKDdOp2hdNwCDV-JRtD_RWA&s=10",
+  "doc": "51992648",
   "desc": "Exalcaldesa de Bogotá; relación política.",
   "evid": "",
   "flags": "",
   "src": "Prensa",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -308,8 +308,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 563.4090747381517,
-  "y": 746.4138681919826
+  "x": 543.3369681952222,
+  "y": 733.5140572429677
  },
  {
   "id": "gbr",
@@ -356,8 +356,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 447.89571167909935,
-  "y": 170.25682978668803
+  "x": 482.27554635609914,
+  "y": 187.44674712518793
  },
  {
   "id": "n1794502478910",
@@ -394,8 +394,8 @@ window.DATA=[
     }
    ]
   },
-  "x": 740.2959122006721,
-  "y": 643.3696878602426
+  "x": 723.4051879144229,
+  "y": 579.8811060307224
  },
  {
   "id": "n1794502872032",
@@ -427,8 +427,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 855.1123372750224,
-  "y": 691.9081631018807
+  "x": 829.7613768260181,
+  "y": 642.6146288954836
  },
  {
   "id": "n1794503826621",
@@ -451,8 +451,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 289.1804686420677,
-  "y": 544.404614696613
+  "x": 561.9420462825709,
+  "y": 365.6986646500098
  },
  {
   "id": "n1794509753434",
@@ -475,8 +475,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 391.1308239773996,
-  "y": 389.09792900518005
+  "x": 295.55961831677524,
+  "y": 341.7790631074562
  },
  {
   "id": "n1794510267698",
@@ -504,8 +504,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 364.90881049051865,
-  "y": 291.5150806030865
+  "x": 345.1971143825329,
+  "y": 247.1637643601186
  },
  {
   "id": "n1794510309836",
@@ -557,8 +557,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 765.0578769245969,
-  "y": 185.28421984318555
+  "x": 685.5569079632085,
+  "y": 277.38462122835534
  },
  {
   "id": "n1794511780947",
@@ -594,8 +594,8 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 553.6107772070183,
-  "y": 383.8795906833434
+  "x": 503.1830120202265,
+  "y": 441.08073762798375
  },
  {
   "id": "n1794512159171",
@@ -618,12 +618,12 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 243.89374064137445,
-  "y": 432.18716663477664
+  "x": 378.7042635253107,
+  "y": 420.78061684882346
  },
  {
   "id": "n1794512642981",
-  "name": "Elizabeth Cristina Ortiz Peña",
+  "name": "Elizabeth C. Ortiz Peña",
   "rel": "pol",
   "parent": "c",
   "risk": "bajo",
@@ -633,7 +633,7 @@ window.DATA=[
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -642,22 +642,22 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 386.4960228354836,
-  "y": 484.8671575438884
+  "x": 407.83796397924124,
+  "y": 333.79426764470315
  },
  {
   "id": "n1794513203323",
   "name": "Francia E. Márquez Mina",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
+  "risk": "alto",
+  "photo": "https://files.lafm.com.co/assets/public/2023-03/francia_marquez_y_el_helicoptero.jpg?w=1200",
+  "doc": "34503110",
   "desc": "Vicepresidenta de la República y ministra de Igualdad y Equidad; lideresa social y ambiental del Cauca.",
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -666,22 +666,22 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 513.4295867083731,
-  "y": 530.6410659919493
+  "x": 281.36339114622285,
+  "y": 451.5338571563006
  },
  {
   "id": "n1794513224418",
   "name": "Laura C. Sarabia Torres",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
+  "risk": "medio",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSC2I7bprhqg8JL4pq-2lBrojSUGktSgYv6pA1jKccTyLjrCscYIwUdI&s=10",
+  "doc": "1020791202",
   "desc": "Politóloga; exjefa de gabinete, exdirectora del DAPRE y canciller.",
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -690,22 +690,22 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 390.7467451956014,
-  "y": 597.6084934995727
+  "x": 366.7799024120569,
+  "y": 585.1697894547015
  },
  {
   "id": "n1794513284551",
   "name": "Armando A. Benedetti Villaneda",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
+  "risk": "alto",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoL5coSmrevIq2a-hdq-m2q6cxOHevQOQGXGlReZbcbQ&s=10",
+  "doc": "72148060",
   "desc": "Político barranquillero; jefe de debate en la campaña de 2022 y embajador.",
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -714,22 +714,22 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 408.15384422830175,
-  "y": 699.860880105234
+  "x": 360.845773569136,
+  "y": 702.8176345214318
  },
  {
   "id": "n1794513355310",
   "name": "Roy L. Barreras Montealegre",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
+  "risk": "alto",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtqSMhWieHdKqTb00VAUCxpUCj-dOIBVIZzr6WEzzEfHObnU2lyesTQDA&s=10",
+  "doc": "79289575",
   "desc": "Médico y exsenador; presidente del Senado (2022-2023) y articulador de la coalición inicial.",
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -738,22 +738,22 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 491.2320695126182,
-  "y": 630.3848976610368
+  "x": 463.0180294777196,
+  "y": 651.0995464166596
  },
  {
   "id": "n1794513421259",
   "name": "Luis Fernando Velasco Chaves",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
+  "risk": "alto",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzbnXK_pd0NIWhARrxjM9OwzguwNKYYm5nZxw_rSDqNQ&s=10",
+  "doc": "10546056",
   "desc": "Abogado y político caucano; exministro del Interior.",
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -762,22 +762,22 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 297.83963224685453,
-  "y": 673.9621809497786
+  "x": 263.04053666930616,
+  "y": 656.1466684699793
  },
  {
   "id": "n1794513511051",
   "name": "Juan Fernando Cristo Bustos",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
-  "risk": "na",
-  "photo": "",
-  "doc": "",
+  "risk": "alto",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlStP3SOh73z5g7MSVy9JSHTPEpRu2YpWju3l8P2rOJw&s=10",
+  "doc": "13470922",
   "desc": "Abogado y exsenador; ministro del Interior en la segunda mitad del mandato.",
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -786,22 +786,59 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 467.3994652292175,
-  "y": 805.7574388254764
+  "x": 627.5038937190076,
+  "y": 788.5176487488724
  },
  {
   "id": "n1794513577436",
   "name": "Daniel Rojas Medellín",
-  "rel": "ext",
+  "rel": "pol",
   "parent": "c",
   "risk": "na",
-  "photo": "",
-  "doc": "",
+  "photo": "https://www.lasillavacia.com/wp-content/uploads/2025/03/Daniel_Rojas_Medellin_MinEducacion.jpg",
+  "doc": "81717276",
   "desc": "Economista; coordinador programático de campaña, director de la SAE y ministro de Educación.",
   "evid": "",
   "flags": "",
   "src": "",
-  "upd": "2026-11-12",
+  "upd": "2026-11-13",
+  "bank": {
+   "cliente": true,
+   "productos": [
+    {
+     "tipo": "Cuentas Aho/Cte (Cerrada))",
+     "numero": "23010904506"
+    },
+    {
+     "tipo": "Cuentas Aho/Cte (Cerrada)",
+     "numero": "24029750249"
+    },
+    {
+     "tipo": "Cuentas Aho/Cte (Cerrada)",
+     "numero": "24058375949"
+    }
+   ]
+  },
+  "fid": {
+   "cliente": false,
+   "productos": []
+  },
+  "x": 426.62309483804785,
+  "y": 780.2038962857436
+ },
+ {
+  "id": "n1794575434684",
+  "name": "Levy Rincón Herrán",
+  "rel": "pol",
+  "parent": "c",
+  "risk": "medio",
+  "photo": "https://estaticos.elcolombiano.com/binrepository/875x565/81c0/780d565/none/11101/AAVL/saveclip-app-495710136-18143226031383262-4130901969646188974-n_48190610_20250629091923.jpg",
+  "doc": "1130636655",
+  "desc": "Levy Rincón Herrán (nacido en Cali el 7 de enero de 1988) es un creador de contenido digital, locutor y comentarista político colombiano. Es conocido por su activismo en redes sociales y por su cercanía ideológica con el expresidente Gustavo Petro.",
+  "evid": "",
+  "flags": "",
+  "src": "",
+  "upd": "2026-11-13",
   "bank": {
    "cliente": false,
    "productos": []
@@ -810,7 +847,55 @@ window.DATA=[
    "cliente": false,
    "productos": []
   },
-  "x": 379.3727067042595,
-  "y": 800.6945985472889
+  "x": 446.98698548526835,
+  "y": 519.6292063036996
+ },
+ {
+  "id": "n1794575897331",
+  "name": "Laura D. Beltrán Palomares",
+  "rel": "pol",
+  "parent": "c",
+  "risk": "medio",
+  "photo": "https://www.lasillavacia.com/wp-content/uploads/2026/08/Fotos-Quien-es-Quien-66.jpg",
+  "doc": "1013672423",
+  "desc": "Laura Daniela Beltrán Palomares, conocida públicamente como «Lalis», es una comunicadora social, creadora de contenido digital y política colombiana que se desempeña como Representante a la Cámara por Bogotá para el periodo 2026-2030. Nacida en Bogotá el 8 de marzo de 1997, obtuvo su curul en representación de la coalición del Pacto Histórico tras alcanzar 26.718 votos.",
+  "evid": "",
+  "flags": "",
+  "src": "",
+  "upd": "2026-11-13",
+  "bank": {
+   "cliente": false,
+   "productos": []
+  },
+  "fid": {
+   "cliente": false,
+   "productos": []
+  },
+  "x": 562.8619416313131,
+  "y": 558.6896884096872
+ },
+ {
+  "id": "n1794576239134",
+  "name": "Hernán Muriel Pérez ",
+  "rel": "pol",
+  "parent": "c",
+  "risk": "medio",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBAXrvoWYDLsVGWJV8rsRaJ2fCZB88--HlJ94lo3r7XmFfk105sTaZbZaR&s=10",
+  "doc": "1039471022",
+  "desc": "Hernán Muriel Pérez (Medellín, 7 de noviembre de 1997) es un comunicador social, periodista digital, activista y político colombiano. Desde el 20 de julio de 2026 se desempeña como representante a la Cámara por el departamento de Antioquia para el periodo ",
+  "evid": "",
+  "flags": "",
+  "src": "",
+  "upd": "2026-11-13",
+  "bank": {
+   "cliente": false,
+   "productos": []
+  },
+  "fid": {
+   "cliente": false,
+   "productos": []
+  },
+  "x": 285.501794872852,
+  "y": 538.6401060153119
  }
 ];
