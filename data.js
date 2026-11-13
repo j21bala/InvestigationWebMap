@@ -1168,30 +1168,6 @@ window.DATA=[
   "y": 472.158554565778
  },
  {
-  "id": "n1794594152882",
-  "name": "José Noel Petro",
-  "rel": "fam1",
-  "parent": "n1794594001813",
-  "risk": "na",
-  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbGatm-fD8iEjbce5tv-rEaqXYvU6mTj7ICUyTh791Bg0g_4Tq_ZpMjw&s=10",
-  "doc": "80191860",
-  "desc": "José Noel Petro Urrea es un reconocido bajista, músico de sesión, productor musical y docente colombiano. Es hijo del célebre cantautor y rey del requinto eléctrico Noel Petro (\"El Burro Mocho\")",
-  "evid": "",
-  "flags": "",
-  "src": "",
-  "upd": "2026-11-13",
-  "bank": {
-   "cliente": false,
-   "productos": []
-  },
-  "fid": {
-   "cliente": false,
-   "productos": []
-  },
-  "x": 1190.60310708821,
-  "y": 435.8441064149033
- },
- {
   "id": "n1794594190947",
   "name": "Noelia Petro",
   "rel": "fam1",
