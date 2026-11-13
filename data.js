@@ -795,7 +795,7 @@ window.DATA=[
   "rel": "pol",
   "parent": "c",
   "risk": "medio",
-  "photo": "https://www.lasillavacia.com/wp-content/uploads/2025/03/Daniel_Rojas_Medellin_MinEducacion.jpg",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlOn645YtI_HSP7kHC-M99LGThFzUcIHus7mLaVFUW3w&s=10",
   "doc": "81717276",
   "desc": "Economista; coordinador programático de campaña, director de la SAE y ministro de Educación.",
   "evid": "",
