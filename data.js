@@ -1064,7 +1064,7 @@ window.DATA=[
   "risk": "na",
   "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTYssmplUt0GROKr1x_nPDEUsWaAKXkqZJNsWSb0frQyiHm7IwGAKKQNfW&s=10",
   "doc": "63354130",
-  "desc": "",
+  "desc": "Mary Luz Herrán Cárdenas es una lideresa social, exmilitante del movimiento guerrillero M-19 y política colombiana. Es ampliamente conocida por haber sido pareja del presidente de Colombia, Gustavo Petro, con quien tuvo dos hijos, y por su participación en procesos de organización comunitaria y electoral.",
   "evid": "",
   "flags": "",
   "src": "",
