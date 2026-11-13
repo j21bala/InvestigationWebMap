@@ -1132,7 +1132,7 @@ window.DATA=[
    "productos": [
     {
      "tipo": "",
-     "numero": ""
+     "numero": "23000100749"
     }
    ]
   },
