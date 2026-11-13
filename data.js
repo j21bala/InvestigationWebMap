@@ -1058,7 +1058,7 @@ window.DATA=[
  },
  {
   "id": "n1794586809195",
-  "name": "Mary Luz Herrán",
+  "name": "Mary Luz Herrán Cárdenas",
   "rel": "ext",
   "parent": "c",
   "risk": "na",
