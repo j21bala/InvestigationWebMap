@@ -1084,5 +1084,29 @@ window.DATA=[
   },
   "x": 789.9734443692608,
   "y": 351.5140429634485
+ },
+ {
+  "id": "n1794588956335",
+  "name": "Nueva persona",
+  "rel": "ext",
+  "parent": "nic",
+  "risk": "na",
+  "photo": "",
+  "doc": "",
+  "desc": "",
+  "evid": "",
+  "flags": "",
+  "src": "",
+  "upd": "2026-11-13",
+  "bank": {
+   "cliente": false,
+   "productos": []
+  },
+  "fid": {
+   "cliente": false,
+   "productos": []
+  },
+  "x": 826.4742548052275,
+  "y": 89.19777751993578
  }
 ];
