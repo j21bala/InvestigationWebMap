@@ -1093,7 +1093,7 @@ window.DATA=[
   "risk": "na",
   "photo": "https://www.infobae.com/resizer/v2/JLG2FELNDVE7TFFWASTBTCCWJE.png?auth=49aaa85029af63ff80ba7959112d02b01a287694558a42e835feb8ed9ed8fce7&smart=true&width=350&height=425&quality=85",
   "doc": "1014244060",
-  "desc": "",
+  "desc": "Laura Ojeda es una abogada, modelo, empresaria e influenciadora colombiana oriunda de Barranquilla. Es ampliamente conocida en la opinión pública por ser la esposa de Nicolás Petro Burgos, exdiputado del Atlántico e hijo mayor del presidente Gustavo Petro, así como por su involucramiento en el proceso judicial que rodea a su pareja y a su exesposa, Dayssuris (Day) Vásquez",
   "evid": "",
   "flags": "",
   "src": "",
