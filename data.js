@@ -1218,7 +1218,7 @@ window.DATA=[
  {
   "id": "n1794594221847",
   "name": "Ana Petro Martínez",
-  "rel": "ext",
+  "rel": "fam1",
   "parent": "n1794594001813",
   "risk": "na",
   "photo": "",
