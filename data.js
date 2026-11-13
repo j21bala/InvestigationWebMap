@@ -976,7 +976,7 @@ window.DATA=[
   "rel": "pol",
   "parent": "c",
   "risk": "bajo",
-  "photo": "",
+  "photo": "https://www.sindesena.org/wp-content/uploads/2026/07/HL8OiusWIAAYph9.jpg",
   "doc": "1017128926",
   "desc": "Franklin Humberto Coral Garrido, conocido públicamente como Beto Coral, es un activista político, columnista y creador de contenido colombiano nacido en Medellín el 11 de mayo de 1986. Se ha destacado principalmente por su activismo digital en defensa de los derechos de los migrantes y por su cercanía ideológica con el sector político liderado por Gustavo Petro",
   "evid": "",
