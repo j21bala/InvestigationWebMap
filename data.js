@@ -1070,7 +1070,7 @@ window.DATA=[
   "src": "",
   "upd": "2026-11-13",
   "bank": {
-   "cliente": false,
+   "cliente": true,
    "productos": [
     {
      "tipo": "",
