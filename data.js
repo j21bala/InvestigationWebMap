@@ -999,7 +999,7 @@ window.DATA=[
   "name": "Hollman Felipe Morris Rincón",
   "rel": "pol",
   "parent": "c",
-  "risk": "na",
+  "risk": "bajo",
   "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ODiuEcvpAUR-hh0V4MDbdc4AzeUkYDMTLI4Gfaeny_9jQl3OBDcQetE&s=10",
   "doc": "72044067",
   "desc": "Hollman Felipe Morris Rincón (nacido en Bogotá el 17 de agosto de 1969) es un periodista, documentalista y político colombiano. Es reconocido por su trayectoria en medios públicos, su activismo en derechos humanos y su cercanía política con el presidente Gustavo Petr",
