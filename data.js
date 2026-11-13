@@ -205,8 +205,13 @@ window.DATA=[
   "src": "El País; La Silla Vacía",
   "upd": "2026-11-13",
   "bank": {
-   "cliente": false,
-   "productos": []
+   "cliente": true,
+   "productos": [
+    {
+     "tipo": "",
+     "numero": ""
+    }
+   ]
   },
   "fid": {
    "cliente": false,
