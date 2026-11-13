@@ -975,7 +975,7 @@ window.DATA=[
   "name": "Franklin Humberto Coral Garrido",
   "rel": "ext",
   "parent": "c",
-  "risk": "na",
+  "risk": "bajo",
   "photo": "",
   "doc": "1017128926",
   "desc": "",
