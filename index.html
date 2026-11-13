@@ -9,7 +9,7 @@
 <div id="login" class="hidden fixed inset-0 z-50 bg-black/80 grid place-items-center">
   <div class="bg-slate-900 p-6 rounded-xl w-80 space-y-3">
     <h2 class="font-bold">Acceso administrador</h2>
-    <input id="pw" type="password" placeholder="Contraseña" class="w-full bg-slate-800 rounded px-3 py-2 outline-none focus:ring-2 ring-cyan-500">
+    <input id="pw" type="password" placeholder="Token de GitHub" class="w-full bg-slate-800 rounded px-3 py-2 outline-none focus:ring-2 ring-cyan-500">
     <div class="flex gap-2">
       <button id="go" class="flex-1 bg-cyan-600 hover:bg-cyan-500 rounded py-2 font-semibold">Entrar</button>
       <button id="cancel" class="bg-slate-700 hover:bg-slate-600 rounded px-3">Cancelar</button>
@@ -40,19 +40,44 @@
 
 <script src="data.js"></script><script src="core.js"></script>
 <script>
-const ADMIN_PASS="admin123"; // <-- CAMBIE AQUÍ SU CONTRASEÑA (y en server.js)
+const REPO="j21bala/InvestigationWebMap",BRANCH="main",FILE="data.js";
+const API=`https://api.github.com/repos/${REPO}/contents/${FILE}`;
 const $=id=>document.getElementById(id);
 const fresh=()=>JSON.parse(JSON.stringify(window.DATA));
-let admin=false,sel=null,adminPw="";
+let admin=false,sel=null,token="",sha=null,busy=false,again=false,st;
 let nodes=fresh();
 layout(nodes);
 
 function toast(m){let t=$("toast");if(!t){t=document.createElement("div");t.id="toast";t.className="fixed bottom-4 right-4 bg-slate-800 border border-slate-600 text-sm rounded px-3 py-2 z-50";document.body.appendChild(t)}
-  t.textContent=m;t.style.display="block";clearTimeout(t._t);t._t=setTimeout(()=>t.style.display="none",1800)}
-let st;
-const save=()=>{clearTimeout(st);st=setTimeout(()=>{
-  fetch("/save",{method:"POST",headers:{"Content-Type":"application/json","x-admin-pass":adminPw},body:JSON.stringify(nodes)})
-  .then(r=>{if(!r.ok)throw 0;toast("Guardado ✓")}).catch(()=>toast("⚠ Error al guardar"))},400)};
+  t.textContent=m;t.style.display="block";clearTimeout(t._t);t._t=setTimeout(()=>t.style.display="none",2500)}
+
+const gh=(u,o={})=>fetch(u,{cache:"no-store",...o,headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github+json",...(o.headers||{})}});
+const b64=s=>{const b=new TextEncoder().encode(s);let r="";for(let i=0;i<b.length;i+=8192)r+=String.fromCharCode.apply(null,b.subarray(i,i+8192));return btoa(r)};
+async function getSha(){const r=await gh(API+"?ref="+BRANCH);if(!r.ok)throw r.status;sha=(await r.json()).sha}
+async function loadLatest(){
+  const r=await gh(API+"?ref="+BRANCH,{headers:{Accept:"application/vnd.github.raw+json"}});
+  if(!r.ok)throw r.status;
+  const t=await r.text();
+  nodes=JSON.parse(t.replace(/^\s*window\.DATA\s*=\s*/,"").replace(/;\s*$/,""));
+  layout(nodes);
+}
+const put=()=>gh(API,{method:"PUT",body:JSON.stringify({
+  message:"Actualiza data.js desde admin",
+  content:b64("window.DATA="+JSON.stringify(nodes,null,1)+";"),sha,branch:BRANCH})});
+async function push(){
+  if(busy){again=true;return}
+  busy=true;
+  try{
+    if(!sha)await getSha();
+    let r=await put();
+    if(r.status===409||r.status===422){await getSha();r=await put()}
+    if(!r.ok)throw r.status;
+    sha=(await r.json()).content.sha;
+    toast("Guardado ✓ (visible para todos en ~1 min)");
+  }catch(e){toast("⚠ Error al guardar ("+e+")")}
+  busy=false;if(again){again=false;push()}
+}
+const save=()=>{clearTimeout(st);st=setTimeout(push,600)};
 
 const side=$("side");
 const empty='<p class="text-slate-400">Seleccione un nodo para ver su ficha.</p>';
@@ -70,12 +95,17 @@ $("reset").onclick=()=>map.center();
 
 /* ---- Login ---- */
 $("adm").onclick=()=>{
-  if(admin){admin=false;adminPw="";$("tools").classList.add("hidden");$("adm").textContent="Admin";render();return}
+  if(admin){admin=false;token="";sha=null;$("tools").classList.add("hidden");$("adm").textContent="Admin";render();return}
   $("login").classList.remove("hidden");$("pw").value="";$("err").textContent="";$("pw").focus()};
 $("cancel").onclick=()=>$("login").classList.add("hidden");
-$("go").onclick=()=>{
-  if($("pw").value===ADMIN_PASS){adminPw=$("pw").value;admin=true;$("login").classList.add("hidden");$("tools").classList.remove("hidden");$("adm").textContent="Salir de admin";render()}
-  else $("err").textContent="Contraseña incorrecta"};
+$("go").onclick=async()=>{
+  token=$("pw").value.trim();$("err").textContent="Verificando…";
+  try{
+    await loadLatest();await getSha();
+    admin=true;sel=null;
+    $("login").classList.add("hidden");$("tools").classList.remove("hidden");$("adm").textContent="Salir de admin";
+    names();map.draw();map.center();render();
+  }catch(e){token="";$("err").textContent="Token inválido o sin permisos ("+e+")"}};
 $("pw").onkeydown=e=>{if(e.key=="Enter")$("go").click()};
 
 /* ---- Herramientas admin ---- */
@@ -86,7 +116,8 @@ $("add").onclick=()=>{const p=byId(nodes,sel)||byId(nodes,"c"),a=Math.random()*6
   nodes.push(n);sel=n.id;save();names();map.draw();render()};
 $("dl").onclick=()=>{const a=document.createElement("a");
   a.href=URL.createObjectURL(new Blob(["window.DATA="+JSON.stringify(nodes,null,1)+";"],{type:"text/javascript"}));a.download="data.js";a.click()};
-$("rst").onclick=()=>{if(confirm("¿Recargar desde el último guardado?"))location.reload()};
+$("rst").onclick=async()=>{if(!confirm("¿Recargar desde el último guardado en GitHub?"))return;
+  try{await loadLatest();await getSha();sel=null;names();map.draw();map.center();render();toast("Recargado ✓")}catch(e){toast("⚠ Error ("+e+")")}};
 
 /* ---- Panel ---- */
 const L=t=>`<label class="block text-xs text-slate-400 mt-3 mb-1">${t}</label>`;
