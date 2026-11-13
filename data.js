@@ -996,7 +996,7 @@ window.DATA=[
  },
  {
   "id": "n1794583323558",
-  "name": "Nueva persona",
+  "name": "Hollman Felipe Morris Rincón",
   "rel": "ext",
   "parent": "c",
   "risk": "na",
