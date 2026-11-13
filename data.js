@@ -1120,7 +1120,7 @@ window.DATA=[
   "rel": "ext",
   "parent": "c",
   "risk": "na",
-  "photo": "",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtVjVGQXBIe2TbAM6pmUMrQsTLvsMxCdZW_B1b-PZU06-gVQoc6rZ8uXg&s=10",
   "doc": "19451246",
   "desc": "",
   "evid": "",
