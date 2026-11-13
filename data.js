@@ -289,7 +289,7 @@ window.DATA=[
      "numero": "24148167731"
     },
     {
-     "tipo": "",
+     "tipo": "Cuentas Aho/Cte(Inactiva)",
      "numero": "26500612361"
     }
    ]
